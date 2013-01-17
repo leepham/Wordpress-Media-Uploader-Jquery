@@ -1,4 +1,10 @@
 <?php
+/*
+ * Author: Lee Pham
+ * From: http://wp.tutsplus.com/author/leepham
+ * Twitter: http://twitter.com/leephamj
+ *
+ */
 add_action( 'after_setup_theme', 'wptuts_default_options' );
 function wptuts_default_options() {
 	// Check whether or not the 'wptuts_options' exists
